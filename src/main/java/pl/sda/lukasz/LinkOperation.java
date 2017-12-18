@@ -8,11 +8,11 @@ import java.util.List;
  * Hello world!
  *
  */
-public class App 
+public class LinkOperation
 {
     public static void main( String[] args )
     {
-        int n = 100000;
+        int n = 1000000;
         List<Integer> linkedList = new LinkedList<Integer>();
         System.out.println("Czasy dla LinkedList");
         performTests(linkedList,n);

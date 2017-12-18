@@ -23,8 +23,8 @@
 
 ## Napisać aplikację wykorzystującą różne implementacje List i sprawdzić różnice w operacjach dodawania na początek listy, usuwania z początku listy, przeglądania całej listy
 * Zaimplementować metody: dodawaie n elementów ma początek listy, usuwanie n elementó z początku listy, odczytywanie wszystkich n elementó listy, metody przyjmują parametr typu List<Integer>
-* 
 
 ## Napisać operacje wykorzystującą różne implementacje Set i sprawdzić różnice w operacjach dodawania do zbioru
+* Napisać program, w którym do zbioru zostanie dodanych kilka wyrazów, a następnie wyświetlona 
 
 ## Do których kolekcji można wstawiać wartości null?
