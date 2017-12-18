@@ -16,15 +16,20 @@
 ## W których kolekcjach elementy są sortowane i w jaki sposób?
 * Interfejsy SortedSet i SortedMap  umożliwiają przechowywanie klolekcji uporządkowanej. Wykorzystywany jest naturalny porządek obiektów (compareTo) lub można wskazać Comparator. Implementacjami są TreeSet i TreeMap.
 
-## Implementacje interfejsu List – złożoność operacji
+## Napisać operacje wykorzystującą różne implementacje Set i sprawdzić różnice w operacjach dodawania do zbioru
+* Napisać program, w którym do zbioru zostanie dodanych kilka wyrazów, a następnie wyświetlona zostanie zawartość zbioru (for-each)
+* Sprawdzić różnice pomiędzy HashSet, TreeSet, LinkedHashSet
+* HashSet nie ma gwarancji odnośnie porządku
+* TreeSet drzewo przechowuje elementy zgodnie z wartością
+* LinkedHashSet przechowuje elementy zgodnie z kolejnością wstawiania
+
+# Implementacje interfejsu List – złożoność operacji
 * Klasa ArrayList wykorzystuje wewnętrznir implementacje tablicową
 * Klasa lInkedList wykorzystuje implementację dowiązaniową
 * Różnice pojawiają się podczas wykonywania operacji: odczytywanie i-tego elementu listy, zapisywanie i-tego elementu listy, dodawanie elementu na początek listy, usuwanie elementu z początku listy.
 
 ## Napisać aplikację wykorzystującą różne implementacje List i sprawdzić różnice w operacjach dodawania na początek listy, usuwania z początku listy, przeglądania całej listy
-* Zaimplementować metody: dodawaie n elementów ma początek listy, usuwanie n elementó z początku listy, odczytywanie wszystkich n elementó listy, metody przyjmują parametr typu List<Integer>
-
-## Napisać operacje wykorzystującą różne implementacje Set i sprawdzić różnice w operacjach dodawania do zbioru
-* Napisać program, w którym do zbioru zostanie dodanych kilka wyrazów, a następnie wyświetlona 
+* Zaimplementować metody: dodawanie n elementów na początek listy, usuwanie n elementów z początku listy, odczytywanie wszystkich n elementów listy, metody przyjmują parametr typu List
+* Porównać czas wykonania powyższych metod dla LinkedList i ArrayList
 
 ## Do których kolekcji można wstawiać wartości null?
